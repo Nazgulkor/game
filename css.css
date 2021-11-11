@@ -1,0 +1,46 @@
+.container{
+    margin: 0 auto;
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    border: 1px solid grey;
+    border-bottom: 3px solid black;
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.bullet{
+    position: absolute;
+    width: 3px;
+    height: 80px;
+    background-color: black;
+}
+
+.enemy{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+}
+
+
+.game-over{
+    display: none;
+
+}
+
+.game-over-active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    
+    font-size: 50px;
+    font-weight: 700;
+    background-color: grey;
+    z-index: 10000;
+}
